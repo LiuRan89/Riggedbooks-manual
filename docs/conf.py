@@ -1,1 +1,1 @@
-pip install mkdocs-static-i18n
+pip install mkdocs-i18n
