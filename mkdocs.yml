@@ -1,0 +1,52 @@
+site_name: Riggedbooks
+theme:
+    name: readthedocs
+nav:
+    - Home: index.md
+    - 主页: index.cn.md
+    - Install: install.md
+    - 安装: install.cn.md
+    - Quickstart: quickstart.md
+    - 快速入门: quickstart.cn.md
+    - Transform: transform.md
+    - 书本变换: transform.cn.md
+    - Parameters: parameters.md
+    - 参数解释: parameters.cn.md
+    - Changematerials: changematerials.md
+    - 材质替换: changematerials.cn.md
+    - Animations: animations.md
+    - 动画调节: animations.cn.md
+    - Custom page number: custom page number.md
+    - 页数定制: custom page number.cn.md
+    - Questions: questions.md
+    - 常见问题: questions.cn.md
+    - Cannotdo: cannotdo.md
+    - 不能做的: cannotdo.cn.md
+    - Changelogs: changelogs.md
+    - 版本更新: changelogs.cn.md
+
+extra_css:
+    - css/extra.css
+
+markdown_extensions:
+    - admonition
+    - attr_list
+
+
+plugins:  
+  - i18n:
+      languages:
+        cn: "中文翻译"      
+        en: "English"
+      default_language: 'en'
+      no_translation:
+        cn: "该页面未翻译成中文."
+        en: "This page isn't translated to English."       
+
+
+        
+
+
+    
+        
+
